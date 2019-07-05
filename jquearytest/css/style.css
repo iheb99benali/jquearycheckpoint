@@ -1,0 +1,227 @@
+*{
+	padding: 0px;
+	margin-top: 1px;
+}
+.image{
+	background-image: url(pagetop.jpg);
+	margin-bottom: 0px;
+}
+
+body{
+	background:
+	Linear-gradient(230deg, rgba(68, 66, 202, 0.8), rgba(92, 6, 109, 0.699) 56.71%),
+
+	Linear-gradient(200deg, black, black 70.71%),
+	
+	Linear-gradient(200deg, rgba(109, 31, 119, 0.658), rgba(0,0,255,0) 70.71%);
+	height:1200px ;
+	background-size: 100%;
+}
+li{
+	color: red;
+	font-size: 50px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	display: inline;
+}
+a{
+	color:red;
+}
+a:hover{
+	color: orange;
+}
+h1,h3,label{
+	color:red;
+}
+
+button:hover{
+	color:orange;
+}
+
+.image2{
+	margin-top: 0.5cm;
+	height: 850px;
+	width: 1500px;
+	margin-top: 0px;
+}
+.backgrounds{
+	margin-left: 3cm;
+	margin-right: 3cm;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.video{
+	margin-top: 3cm;
+	margin-bottom: 3cm;
+}
+.cp{
+	width: 100%;
+	height: inherit;
+	display:flex;
+	justify-content: space-around;
+    flex-flow: row wrap;
+}
+.CPIC1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CPIC2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CPIC3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CPIC4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.CPIC1:hover{
+	opacity: 0.6;
+}
+.CPIC2:hover{
+	opacity: 0.6;
+}
+
+.CPIC3:hover{
+	opacity: 0.6;
+}
+
+.CPIC4:hover{
+	opacity: 0.6;
+}
+
+
+.CPIC1 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+.CPIC2 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+.CPIC3 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+
+.CPIC4 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+
+.CPIC1 #btn1{
+	margin-left: 70px;
+	margin-top: 20px;
+	position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.CPIC2 #btn2{
+	margin-left: 70px;
+	margin-top: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+  
+}
+.CPIC3 #btn3{
+	margin-left: 70px;
+	margin-top: 20px;
+	position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+.CPIC4 #btn4{
+	margin-left: 70px;
+	margin-top: 20px;
+	position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+#popoutP{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	width: 700px;
+	height: 100px;
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	background-color: azure;
+	flex-flow:row wrap;
+    display: none;
+}
+
+
+
+textarea{
+	width: 10cm;
+	height: 4cm;
+	font-family:Arial, Helvetica, sans-serif;
+}
